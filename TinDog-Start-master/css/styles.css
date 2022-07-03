@@ -10,6 +10,7 @@ body {
 .container-fluid {
 	padding: 3% 15%;
 }
+
 h1 {
 font-family: "Montserrat", sans-serif;
 font-weight: 900;
@@ -19,7 +20,8 @@ line-height: 1.5;
 
 h3 {
 	font-family: "Montserrat", sans-serif;
-	font-weight: 700;
+	font-weight: 600;
+	font-size: 1.5rem;
 }
 
 p {
@@ -68,5 +70,14 @@ p {
 
 .feature-box {
 	text-align: center;
-	padding: 5%;
+	padding: 3.5%;
+}
+
+.icon {
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+
+.icon:hover {
+	color: #ff4c68;
 }
