@@ -18,6 +18,14 @@ font-size: 3.5rem;
 line-height: 1.5;
 }
 
+h2 {
+
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
 h3 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 600;
@@ -80,4 +88,35 @@ p {
 
 .icon:hover {
 	color: #ff4c68;
+}
+
+/*Testimonial Section*/
+
+#testimonials {
+	background-color: #ef8172;
+	text-align: center;
+	color: #fff;
+}
+
+.testimonial-img {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+.carousel-item {
+	padding: 7% 25%;
+}
+
+/*Press Section*/
+
+#press {
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.press-logo {
+	width: 15%;
+	margin: 20px 20px 50px;
 }
